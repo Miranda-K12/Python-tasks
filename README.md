@@ -1,16 +1,27 @@
-# Python Tasks
-_Woman In AI Course_
+# Student Scores Analysis
 
-### 1. Define the Function
-Create the apply_operation function with the following signature:
+## Objective
+Analyze a list of students with unique names and their test scores to extract useful information such as unique grades, top performers, and students who failed.
 
+## Data
 ```python
-def apply_operation(numbers, operation):
-    """
-    Apply the given operation to each element in the list of numbers.
-    
-    :param numbers: List of numbers to be processed.
-    :param operation: A function that defines the operation to apply to each element.
-    :return: A new list with the operation applied to each element.
-    """
-    return [operation(number) for number in numbers]
+students = [
+    ("Alice", 85),
+    ("Bob", 78),
+    ("Charlie", 92),
+    ("David", 85),
+    ("Eve", 78),
+    ("Frank", 85),
+    ("Mark", 50),
+    ("George", 21)
+]
+## Requirements
+
+### Unique Grades:
+- Extract and print all the unique grades from the list of student scores.
+
+### Top Performers:
+- Identify and print the names of the top three students with the highest scores.
+
+### Failed Students:
+- Identify and print the names of students who scored below 51, along with their scores.
