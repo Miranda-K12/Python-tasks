@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# PyCharm / JetBrains project files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
